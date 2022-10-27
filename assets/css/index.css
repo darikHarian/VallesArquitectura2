@@ -10,3 +10,10 @@ html, body {
 html {
     scroll-behavior: smooth;
 }
+
+/* Navbar */
+    #logo {
+        width: 35px !important;
+        height: 42px !important;
+        border-radius: 100%;
+    }
