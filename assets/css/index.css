@@ -13,7 +13,5 @@ html {
 
 /* Navbar */
     #logo {
-        width: 35px !important;
-        height: 42px !important;
-        border-radius: 100%;
+        width: 350px !important;
     }
