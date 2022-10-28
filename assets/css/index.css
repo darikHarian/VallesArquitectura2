@@ -39,14 +39,14 @@ html {
     /* Screen MD */
     @media only screen and (min-width: 768px) {
         #logo {
-            width: 250px;
+            width: 240px;
         }
     }
 
     /* Screen LG */
     @media only screen and (min-width: 992px) {
         #logo {
-            width: 300px;
+            width: 270px;
         }
     }
 
