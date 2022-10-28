@@ -29,7 +29,18 @@ html {
         color: #212121;
     }
 
-/* Screen MD */
-    @media only screen and (max-width: 990px) {
+    /* Screen SM */
+    @media only screen and (max-width: 576px) {
+        #logo {
+            width: 200px !important;
+        }
+
+        .nav-item {
+            border: none !important;
+        }
+    }
+
+    /* Screen MD */
+    @media only screen and (max-width: 768px) {
 
     }
