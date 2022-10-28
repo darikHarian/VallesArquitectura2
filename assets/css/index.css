@@ -13,7 +13,7 @@ html {
 
 /* Navbar */
     #logo {
-        width: 350px !important;
+        width: 150px;
     }
 
     .nav-item {
@@ -30,20 +30,35 @@ html {
     }
 
     /* Screen SM */
-    @media only screen and (max-width: 576px) {
+    @media only screen and (min-width: 576px) {
         #logo {
-            width: 200px !important;
+            width: 200px;
         }
     }
 
     /* Screen MD */
-    @media only screen and (max-width: 768px) {
-
+    @media only screen and (min-width: 768px) {
+        #logo {
+            width: 250px;
+        }
     }
 
     /* Screen LG */
+    @media only screen and (min-width: 992px) {
+        #logo {
+            width: 300px;
+        }
+    }
+
     @media only screen and (max-width: 992px) {
         .nav-item {
-            border: none !important;
+            border: #424242 !important;
+        }
+    }
+
+    /* Screen XL*/
+    @media only screen and (max-width: 1200px) {
+        .nav-link {
+            font-size: 15px !important;
         }
     }
