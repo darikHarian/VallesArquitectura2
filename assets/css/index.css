@@ -16,6 +16,10 @@ html {
         width: 150px;
     }
 
+    .navbar-collapse {
+        transition: 1s;
+    }
+
     .nav-item {
         letter-spacing: 0.2vw;
         height: 4vh;
