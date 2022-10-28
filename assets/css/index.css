@@ -34,13 +34,16 @@ html {
         #logo {
             width: 200px !important;
         }
-
-        .nav-item {
-            border: none !important;
-        }
     }
 
     /* Screen MD */
     @media only screen and (max-width: 768px) {
 
+    }
+
+    /* Screen LG */
+    @media only screen and (max-width: 992px) {
+        .nav-item {
+            border: none !important;
+        }
     }
