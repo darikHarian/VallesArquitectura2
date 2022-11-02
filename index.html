@@ -9,13 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
 
     <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 
 
-    <title>Valles Arquitectura | Construcción & Arquitectura</title>
+    <title>Valles Arquitectura & Construcción</title>
 </head>
 <body>
     <header id="top">
@@ -56,6 +57,77 @@
                 </div>
             </div>
         </nav>
+        <!-- Carousel -->
+        <section id="top">
+            <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+                <div class="carousel-indicators pb-3">
+                    <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"><span></span></button>
+                    <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="1" aria-label="Slide 2"><span></span></button>
+                    <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="2" aria-label="Slide 3"><span></span></button>
+                    <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="3" aria-label="Slide 4"><span></span></button>
+                    <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="4" aria-label="Slide 5"><span></span></button>
+                    <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="5" aria-label="Slide 6"><span></span></button>
+                </div>
+                <div class="carousel-inner sh-dark">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carousel/01.png" class="d-block w-100" alt="Slide 1">
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h5>CENTRO DE ESTÉTICA NAMASKAR</h5>
+                            <hr class="border border-2 w-50 mx-auto opacity-75">
+                            <p>La Serena - Chile | Construido en 2020 | 170 m&sup2;</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel/02.png" class="d-block w-100" alt="Slide 2">
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h5>CLÍNICA DENTAL LAS ARAUCARIAS</h5>
+                            <hr class="border border-2 w-50 mx-auto opacity-75">
+                            <p>La Serena - Chile | Construido en 2019 | 292 m&sup2;</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel/03.png" class="d-block w-100" alt="Slide 3">
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h5>VIVIENDA OCHOA</h5>
+                            <hr class="border border-2 w-50 mx-auto opacity-75">
+                            <p>Pan de Azucar - Chile | Construido en 2017 | 180 m&sup2;</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel/04.png" class="d-block w-100" alt="Slide 4">
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h5>VIVIENDA ALTOVALSOL LT</h5>
+                            <hr class="border border-2 w-50 mx-auto opacity-75">
+                            <p>Altovalsol - Chile | Construido en 2017 | 508 m&sup2;</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel/05.png" class="d-block w-100" alt="Slide 5">
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h5>VIVIENDA CERRO GRANDE</h5>
+                            <hr class="border border-2 w-50 mx-auto opacity-75">
+                            <p>La Serena - Chile | Construido en 2018 | 280 m&sup2;</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel/06.png" class="d-block w-100" alt="Slide 6">
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h5>VIVIENDA MOLLE</h5>
+                            <hr class="border border-2 w-50 mx-auto opacity-75">
+                            <p>El Molle - Chile | Construido en 2016 | 190 m&sup2;</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
     </header>
     <main>
 
@@ -63,5 +135,8 @@
     <footer>
 
     </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/carousel.js"></script>
 </body>
 </html>

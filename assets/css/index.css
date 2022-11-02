@@ -33,6 +33,15 @@ html {
         color: #212121;
     }
 
+/* Main */
+    .sh-light {
+        text-shadow: #fff;
+    }
+
+    .sh-dark {
+        text-shadow: 1px 2px 3px #000;
+    }
+
     /* Screen SM */
     @media only screen and (min-width: 576px) {
         #logo {
