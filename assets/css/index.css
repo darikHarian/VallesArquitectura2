@@ -35,7 +35,7 @@ html {
 
 /* Main */
     .sh-light {
-        text-shadow: #fff;
+        text-shadow: #f5f5f5 !important;
     }
 
     .sh-dark {
@@ -66,6 +66,11 @@ html {
     @media only screen and (max-width: 992px) {
         .nav-item {
             border: #424242 !important;
+        }
+
+        .navbar-collapse {
+            background: rgba(255,255,255,.7);
+            border-radius: 10px;
         }
     }
 
